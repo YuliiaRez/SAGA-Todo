@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  //   width: 400px;
+  min-width: 200px;
+  margin: 10px;
+  align-items: flex-start;
+  input {
+    width: 200px;
+  }
+}
+.tasksList {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // justify-content: space-between;
+    background-color: #7790a3;
+    border: 2px solid rgb(56, 61, 59);
+    max-width: 310px;
+  }
+  button {
+    margin-left: auto;
+  }
+}
+form {
+  padding: 10px;
+  font-family: Arial;
+  font-size: 13px;
+  background-color: #577590;
+  color: white;
+}
+
+button {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: #3d6182;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #19252f;
+  padding: 8px 17px 9px;
+  color: white;
+  transition: 0.1s linear all;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin-left: 2px;
+  margin-right: 12px;
+  padding: 0;
+  line-height: normal;
+  float: left;
+  border: none;
+}
+label {
+  font-size: small;
+  color: rgb(80, 16, 35);
+}
+ul {
+  list-style: none;
+
+  padding: 0;
+  padding-top: 6px;
+  float: left;
+}
+
+ul li {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin-top: 6px;
+}
+.btnSwitchTheme {
+  margin: 5px;
+}
