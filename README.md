@@ -1,3 +1,22 @@
+HW-express
+add Models for Update and Delete
+
+Develop a server application that handles http requests to receive, create and update forum messages (*+delete). The message entity contains the text of the message, the email of the author, *the date the message was created.
+
+Create routes using the use, get, post, patch, delete methods (select the one you need). Use middleware e.g. to validate email, message text (minimum and maximum length), *date (e.g. no later than today), etc.
+
+Provide a standard error handler.
+
+Observe the agreed project structure (separate storage of middleware, controllers).
+
+Requests to test the operation of the application, save in the requests folder.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
